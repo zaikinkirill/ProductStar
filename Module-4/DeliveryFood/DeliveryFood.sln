@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryFoodApp.UI", "DeliveryFoodApp.UI\DeliveryFoodApp.UI.csproj", "{7CC3C886-D796-41CA-B6FE-3A23B96BE1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryFood.Core", "DeliveryFood.Core\DeliveryFood.Core.csproj", "{EC3DA9D8-097E-4A28-B610-F7E1D70F77A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryFood.Infrastructure", "DeliveryFood.Infrastructure\DeliveryFood.Infrastructure.csproj", "{AB109462-0866-494D-B8F3-1531984CC577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC3C886-D796-41CA-B6FE-3A23B96BE1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC3C886-D796-41CA-B6FE-3A23B96BE1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC3C886-D796-41CA-B6FE-3A23B96BE1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC3C886-D796-41CA-B6FE-3A23B96BE1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3DA9D8-097E-4A28-B610-F7E1D70F77A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3DA9D8-097E-4A28-B610-F7E1D70F77A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3DA9D8-097E-4A28-B610-F7E1D70F77A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3DA9D8-097E-4A28-B610-F7E1D70F77A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB109462-0866-494D-B8F3-1531984CC577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB109462-0866-494D-B8F3-1531984CC577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB109462-0866-494D-B8F3-1531984CC577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB109462-0866-494D-B8F3-1531984CC577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
