@@ -1,0 +1,24 @@
+﻿{
+  "namespace" : "avro",
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    {"name": "orderID", "type": "int"},
+    {"name": "totalCost", "type": "double"},
+    {"name": "createdAt", "type": "long", "logicalType": "timestamp-millis"},
+    {
+        "name": "dishesList",
+        "type": {
+            "type": "array",
+            "items":{
+                "name": "Dishes",
+                "type": "record",
+                "fields":[
+                            {"name": "dishId", "type": "int"},
+                            {"name": "title","type": "string"}
+                ]
+            }
+        }
+    }
+  ]
+}
